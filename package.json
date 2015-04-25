@@ -1,0 +1,21 @@
+{
+    "name": "mhap",
+    "version": "0.0.1",
+    "description": "Voronoï map splitter",
+    "dependencies": {
+    },
+    "author": "aMarcireau",
+    "license": "ISC",
+    "readme": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aMarcireau/Mhap.git"
+    },
+    "dependencies": {
+        "voronoi": "1.0.0"
+    },
+    "main": "./lib/mhap",
+    "scripts": { 
+        "test" : "node ./test/test.js" 
+    }
+}
